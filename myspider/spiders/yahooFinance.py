@@ -2,7 +2,7 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 
 
-class QuotesSpider(scrapy.Spider):
+class YAHOO(scrapy.Spider):
     name = "yahoo"
 
     def start_requests(self):
